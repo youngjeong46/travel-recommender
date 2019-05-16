@@ -1,0 +1,47 @@
+name: recommender
+channels: 
+  - defaults
+  - conda-forge
+  - anaconda
+  - syllabs_admin
+dependencies:
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - jupyter_client
+  - jupyter_core
+  - line_profiler
+  - matplotlib
+  - memory_profiler
+  - patsy
+  - psutil
+  - scipy
+  - seaborn
+  - setuptools
+  - statsmodels
+  - python >= 3.6
+  - numpy
+  - pandas
+  - scikit-learn
+  - scrapy
+  - praw
+  - requests
+  - yaml
+  - keras
+  - flask
+  - flask-cors
+  - gunicorn
+  - keras=2.2.4
+  - tensorflow=1.10.0  
+  - psycopg2
+  - mlxtend
+  - ipywidgets
+  - arrow
+  - scikit-surprise
+  - nltk
+  - gensim
+  - pymongo
+  - requests-oauthlib
+  - tweepy
+  - pip:
+    - svdrec
