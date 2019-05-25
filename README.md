@@ -5,7 +5,7 @@
 
 This project took TripAdvisor's Hotel reviews in Punta Cana and applied NLP (Natural Language Processing) to create a recommender for travelers on which hotel to stay at.
 
-Blog post on the topic can be found [here]().
+Blog post on the topic can be found [here](). The Flask app is live and can be accessed [here](http://travel-recommender-app.herokuapp.com/).
 
 ## Project Design
 
