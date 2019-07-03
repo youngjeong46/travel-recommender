@@ -45,12 +45,9 @@ Doing these case studies showed me that the model has some holes that need to be
 The structure of the project organization is adapted from Cliff Clive's [DataScienceMVP](https://github.com/cliffclive/datasciencemvp), which itself is adapted from the famous Data Science project structure from Cookiecutters that you can access [here](https://github.com/drivendata/cookiecutter-data-science/).
 
 ```
-    ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
-    ├── main.py            <- The top-level src code for this project.
     ├── data
     │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
     ├── results            <- Trained and serialized models, model predictions, or model summaries
@@ -58,7 +55,6 @@ The structure of the project organization is adapted from Cliff Clive's [DataSci
     │
     ├── notebooks          <- Jupyter notebook. Naming convention is a number (for ordering),
     │   └── MVP.ipynb      <- General overview of the projectin Jupyter notebook.
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   ├── proposal.docs  <- Proposal of the project
@@ -67,12 +63,3 @@ The structure of the project organization is adapted from Cliff Clive's [DataSci
     ├── environment.yml    <- Conda environment file
 
 ```
-
-## Data
-
-The data was obtained by scraping the following websites:
-
-1. TripAdvisor.com: Using Scrapy
-2. Reddit.com: Via API
-
-The data were accumulated and then combined to create a single dataset of over 86000 reviews.
